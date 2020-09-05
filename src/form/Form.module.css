@@ -1,0 +1,49 @@
+.formBlock {
+    height: 500px;
+    background-color: #ffcfd7;
+}
+
+.formContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.formBody {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.formBody div {
+    height: 40px;
+    width: 500px;
+}
+
+.formBody input {
+    padding: 0;
+    height: 30px;
+    width: 100%;
+
+}
+
+.formBody .text {
+    height: 130px;
+    width: 500px;
+}
+.formBody textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
