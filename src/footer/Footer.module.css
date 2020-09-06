@@ -1,0 +1,10 @@
+.networksBlock {
+    height: 250px;
+    background-color: #caffec;
+}
+
+.networksContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

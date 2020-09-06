@@ -7,7 +7,7 @@ export const Form: React.FC<FormPropsType> = (props) => {
     return (
         <div className={style.formBlock}>
             <div className={`${styleContainer.container} ${style.formContainer}`}>
-                <h2 className={style.title}>Contact</h2>
+                <h2 className={style.title}>Contacts</h2>
                 <form className={style.formBody}>
                     <div className={style.name}>
                         <input type="text" placeholder='name'/>
