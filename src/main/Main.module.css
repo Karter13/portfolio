@@ -2,6 +2,9 @@
     height: 100vh;
     background-color: #d8baff;
 }
+.mainContainer {
+    flex-wrap: wrap;
+}
 .text {
     width: 300px;
     background-color: #e6dbff;
