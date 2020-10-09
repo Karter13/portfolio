@@ -3,9 +3,9 @@
     background-color: #edffed;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 .image {
+    background-color: #a2a9a1;
     display: flex;
     justify-content: center;
     align-items: center;
