@@ -1,13 +1,10 @@
 .formBlock {
-    height: 500px;
     background-color: #ffcfd7;
 }
 
 .formContainer {
-    align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
 }
 
 .title {
@@ -15,29 +12,23 @@
 }
 
 .formBody {
-    margin: 20px;
-    align-items: center;
+    width: 50%;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
 
+.formBody input, .formBody textarea {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .formBody input {
-    padding: 0;
-    margin-bottom: 10px;
-    height: 30px;
-    width: 100%;
 
-}
-
-.formBody .text {
-    height: 130px;
-    width: 500px;
 }
 
 .formBody textarea {
-    height: 100px;
-    width: 100%;
+
 }
 
 .button {

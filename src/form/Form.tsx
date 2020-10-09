@@ -9,11 +9,12 @@ export const Form: React.FC<FormPropsType> = (props) => {
             <div className={`${styleContainer.container} ${style.formContainer}`}>
                 <h2 className={style.title}>Contacts</h2>
                 <form className={style.formBody}>
-                        <input type="text" placeholder='name'/>
-                        <input type="email" placeholder='email'/>
-                        <textarea placeholder='text'/>
+                    <input type="text" placeholder='name'/>
+                    <input type="email" placeholder='email'/>
+                    <textarea placeholder='text'/>
+                    <button type={'submit'} className={style.button}>SEND MESSAGE</button>
                 </form>
-                <button className={style.button}>SEND MESSAGE</button>
+
             </div>
         </div>
     )

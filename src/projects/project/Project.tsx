@@ -9,11 +9,11 @@ type ProjectPropsType = {
 export const Project: React.FC<ProjectPropsType> = (props) => {
     return (
         <div className={style.project}>
-            <div className={style.images}>
-                <img src="" alt=""/>
+            <div className={style.image}>
+                <a className={style.viewBtn}>Watch the project</a>
             </div>
             <h3>{props.name}</h3>
-            <span>{props.text}</span>
+            <span className={style.description}>{props.text}</span>
         </div>
     )
 };
