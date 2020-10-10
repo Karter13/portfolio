@@ -1,13 +1,4 @@
-.projectsBlock {
-   background-color:#212529;
-    /*background-color:#343a40;*/
-}
 
-.projectsContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 .title {
     margin-bottom: 83px;
@@ -34,18 +25,4 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
-}
-
-.projects {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1285px) {
-    .projects {
-        justify-content: center;
-    }
 }
