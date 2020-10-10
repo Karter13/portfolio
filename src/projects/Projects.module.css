@@ -1,5 +1,5 @@
 .projectsBlock {
-    background-color: #a9a499;
+    background-color:#212529;
 }
 
 .projectsContainer {
@@ -9,7 +9,30 @@
 }
 
 .title {
-    background-color: #edffed;
+    margin-bottom: 83px;
+    position: relative;
+}
+
+.title h2 {
+    color: #fff;
+    margin: 0 0 37px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    line-height: 100%;
+    font-size: 46px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: #009e66;
+    height: 4px;
+    width: 75px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .projects {
