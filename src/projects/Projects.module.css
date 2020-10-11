@@ -1,6 +1,6 @@
 .projectsBlock {
-   background-color:#212529;
-    /*background-color:#343a40;*/
+    margin: 30px 0;
+    background-color: #212529;
 }
 
 .projectsContainer {
@@ -15,6 +15,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 1285px) {
