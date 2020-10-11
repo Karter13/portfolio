@@ -12,8 +12,8 @@ export const Project: React.FC<ProjectPropsType> = (props) => {
             <div className={style.image}>
                 <a className={style.viewBtn}>Watch the project</a>
             </div>
-            <h3>{props.name}</h3>
-            <span className={style.description}>{props.text}</span>
+            <h3 className={style.projectTitle}>{props.name}</h3>
+            <p className={style.description}>{props.text}</p>
         </div>
     )
 };
