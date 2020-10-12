@@ -1,4 +1,5 @@
 @import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
 
 .title {
     margin-bottom: 30px;
@@ -14,14 +15,12 @@
         transform: translate(-50%, 50%);
     }
     h2 {
-        color: #fff;
-        margin: 0 0 40px;
-        font-family: 'Poppins', sans-serif;
-        display: inline-block;
-        font-weight: 700;
+        @include text($mainFontFamily, 46px, 100%, $textColor);
+
         letter-spacing: -.25px;
-        line-height: 100%;
-        font-size: 46px;
+        font-weight: 700;
+        margin: 0 0 40px;
+        display: inline-block;
     }
 }
 
