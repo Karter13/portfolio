@@ -1,9 +1,9 @@
 .footer {
-    height: 250px;
     background-color: #caffec;
 }
 
 .footerContainer {
+    padding: 30px 0;
     flex-direction: column;
     justify-content: flex-start;
     /*align-items: center;*/
