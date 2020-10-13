@@ -1,0 +1,16 @@
+@import "../common/styles/sass/variables";
+
+.header {
+  height: 80px;
+  background-color: $bgColor;
+
+  .headerContainer {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+
+
