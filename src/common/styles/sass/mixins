@@ -6,3 +6,9 @@
   line-height: $lineHeight;
   color: $color;
 }
+
+@mixin photo($backgroundSize, $backgroundPosition, $backgroundRepeat) {
+  background-size: $backgroundSize;
+  background-position: $backgroundPosition;
+  background-repeat: $backgroundRepeat;
+}
