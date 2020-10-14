@@ -2,5 +2,6 @@ $textColor: #fff;
 $textSecondColor: #9f9f9f;
 $primaryColor: #009e66;
 $bgColor: #212529;
+$bgThirdColor: #14181c;
 $bgSecondColor: #343a40;
 $mainFontFamily: 'Poppins', sans-serif;

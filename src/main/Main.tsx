@@ -1,4 +1,4 @@
-import React, {CSSProperties} from 'react';
+import React from 'react';
 import styleContainer from '../common/styles/Common.module.css'
 import style from './Main.module.scss'
 import authorPhoto from '../assets/image/authorphoto.jpg'
