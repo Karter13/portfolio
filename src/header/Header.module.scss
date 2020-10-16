@@ -3,6 +3,11 @@
 .header {
   height: 80px;
   background-color: $bgColor;
+  position: fixed;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  z-index: 1;
 
   .headerContainer {
     flex-direction: row;

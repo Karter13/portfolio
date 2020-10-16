@@ -1,14 +1,13 @@
+@import "../common/styles/sass/variables";
+
 .formBlock {
-    background-color: #ffcfd7;
+    background-color: $bgThirdColor;
 }
 
 .formContainer {
+    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
-}
-
-.title {
-    margin-bottom: 40px;
 }
 
 .formBody {

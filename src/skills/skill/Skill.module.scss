@@ -1,26 +1,32 @@
 @import "../../common/styles/sass/variables";
+@import '../../common/styles/sass/mixins';
 
 .skill {
-  width: 250px;
-  background-color: $bgSecondColor;
+  width: 25%;
+  background-color: $bgThirdColor;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin: 0 3% 50px 0;
+  border: 1px solid white;
 
-  .icon {
+  .iconBlock {
     width: 60px;
     height: 60px;
-    background-color: $bgColor;
+    background-color: $textColor;
+    @include photo(cover, center, no-repeat);
+    transform: rotate(45deg);
+    margin-bottom: 20px;
   }
 
   .title {
-      color: $textColor;
+    color: $textColor;
   }
 
   .description {
+    color: $textColor;
   }
 }
 

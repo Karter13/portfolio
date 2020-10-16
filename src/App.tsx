@@ -20,7 +20,7 @@ function App() {
                 <Route path={'/contact'} render={() => <Form/>}/>
             </Switch>
             <div className={style.footer}>
-                <Footer/>
+                {/*<Footer/>*/}
             </div>
         </div>
     );

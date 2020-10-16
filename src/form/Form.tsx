@@ -1,6 +1,6 @@
 import React from 'react';
 import styleContainer from '../common/styles/Common.module.css';
-import style from './Form.module.css';
+import style from './Form.module.scss';
 import {Title} from '../common/components/titile/Title';
 
 type FormPropsType = {}
