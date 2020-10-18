@@ -16,9 +16,15 @@
     width: 60px;
     height: 60px;
     background-color: $textColor;
+    border: 5px solid $primaryColor;
     @include photo(cover, center, no-repeat);
     transform: rotate(45deg);
-    margin-bottom: 20px;
+    margin: 20px 0;
+    .logo {
+      transform: rotate(-45deg);
+      width: 80%;
+      border-radius: 50%;
+    }
   }
 
   .title {
