@@ -1,12 +1,14 @@
 import React from 'react';
 import {createStyles, makeStyles, Theme} from '@material-ui/core/styles';
-import style from './Form.module.css'
+import style from './FormikForm.module.scss'
 import OutlinedInput from '@material-ui/core/OutlinedInput';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import {Button, Grid} from '@material-ui/core';
 import {useFormik} from 'formik';
+import {formAPI} from '../dal/form-api';
+
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
@@ -28,7 +30,7 @@ type FormikErrorType = {
     text?: string
 }
 
-export const Form = () => {
+export const FeedbackForm = () => {
     const classes = useStyles();
 
     const formik = useFormik({
@@ -52,6 +54,10 @@ export const Form = () => {
             return errors;
         },
         onSubmit: values => {
+            formAPI.sendForm(values)
+                .then(() => {
+                    console.log('Message send')
+                })
 
             formik.resetForm();
             console.log(values)
