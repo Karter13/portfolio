@@ -21,8 +21,8 @@ export const Projects = () => {
                 <Title title={'Project'}/>
                 <div className={style.projects}>
                     <Project style={social} name={'Social network'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto beatae eligendi eos in ipsum numquam quaerat quidem sequi velit!'}/>
-                    <Project style={social} name={'Social network'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto beatae eligendi eos in ipsum numquam quaerat quidem sequi velit!'}/>
-                    <Project style={social} name={'Social network'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto beatae eligendi eos in ipsum numquam quaerat quidem sequi velit!'}/>
+                    <Project style={todoList} name={'TodoList'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto beatae eligendi eos in ipsum numquam quaerat quidem sequi velit!'}/>
+                    <Project style={social} name={'Blog'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto beatae eligendi eos in ipsum numquam quaerat quidem sequi velit!'}/>
                 </div>
             </div>
         </div>
